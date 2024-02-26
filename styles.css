@@ -1,0 +1,256 @@
+@charset "UTF-8";
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  padding: 40px;
+  box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.1);
+  width: 1280px;
+  margin: 40px auto;
+}
+
+.contact-skills {
+  background-color: #1E2939;
+}
+.contact-skills__img {
+  margin-top: 40px;
+  margin-bottom: 51px;
+}
+.contact-skills__title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin-bottom: 8px;
+}
+.contact-skills__info {
+  padding-left: 40px;
+  margin-bottom: 47px;
+}
+.contact-skills__info p {
+  color: white;
+  font-weight: 300;
+  color: gray;
+}
+
+.symbol:hover {
+  transition: 0.1s ease-in;
+  color: #573afb;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.symbol span {
+  font-weight: 700;
+  color: white;
+  padding-right: 4px;
+  font-size: 14px;
+}
+
+.contact-skills__tech {
+  padding-left: 40px;
+  margin-bottom: 44px;
+}
+.contact-skills__tech-list {
+  padding-left: 15px;
+  list-style-type: none;
+}
+.contact-skills__tech-item::before {
+  content: "•"; /* код для крапки */
+  color: red; /* Змінюємо колір крапки */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; /* Вирівнюємо крапки */
+}
+.contact-skills__tech-link {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+.contact-skills__tech-link:hover {
+  transition: 0.1s ease-in;
+  color: #FB6D3A;
+}
+
+.contact-skills__soft {
+  padding-left: 40px;
+  margin-bottom: 366px;
+}
+.contact-skills__soft-list {
+  padding-left: 15px;
+  list-style-type: none;
+}
+.contact-skills__soft-item::before {
+  content: "•"; /* код для крапки */
+  color: red; /* Змінюємо колір крапки */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; /* Вирівнюємо крапки */
+}
+.contact-skills__soft-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.contact-skills__soft-link:hover {
+  transition: 0.1s ease-in;
+  color: #FB6D3A;
+}
+
+.about {
+  padding-top: 102px;
+  padding-left: 88px;
+}
+
+.about-dev {
+  margin-bottom: 35px;
+}
+.about-dev__job {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 19px;
+}
+.about-dev__name {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.about-dev__text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(89, 89, 89);
+  max-width: 400px;
+}
+
+.about__title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.about-projects {
+  margin-bottom: 66px;
+}
+.about-projects__block {
+  gap: 112px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.about-projects__block a {
+  text-decoration: none;
+  color: #595959;
+}
+
+.about-projects__block-row {
+  display: flex;
+  gap: 112px;
+  position: relative;
+}
+.about-projects__block-row::before {
+  position: absolute;
+  content: "---------------------------";
+  left: 194px;
+  bottom: -5px;
+  color: rgb(168, 168, 168);
+}
+.about-projects__block-row span {
+  color: black;
+  font-weight: 800;
+}
+
+.about__subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 11px;
+}
+.about__subtitle span {
+  color: #FB6D3A;
+}
+
+.workexp__content {
+  margin-bottom: 20px;
+}
+.workexp__content ul {
+  padding-left: 15px;
+  list-style-type: none;
+}
+
+.workexp__content-item {
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.workexp__content-item::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 4px;
+  background-color: gray;
+  border-radius: 50%;
+  left: -14px;
+  top: 7px;
+}
+
+.about__date {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.eduction__title {
+  margin-top: 11px;
+  margin-bottom: 12px;
+}
+.eduction span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FB6D3A;
+}
+
+/*# sourceMappingURL=styles.css.map */
